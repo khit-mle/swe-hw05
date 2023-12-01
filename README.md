@@ -15,7 +15,7 @@ uvicorn khitrin-hw03-FastAPI-NER:app --host 127.0.0.1 --port 8000
 ```
 
 ### Демонстрация в формате GIF
-![fastapi-ner-demo_final](https://github.com/mlteamurfu2325/swe/assets/149804920/a2b684a7-473e-4f71-8b85-10352aad6b26)
+![fastapi-ner-demo_final](https://github.com/khit-mle/swe-hw03/assets/149804920/3fd10d36-8688-4e77-a7b8-0fea0eec2997)
 
 Ключевые моменты из демонстрации:
 * успешный POST-запрос по созданию таски
