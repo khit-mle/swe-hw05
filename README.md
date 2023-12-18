@@ -8,4 +8,7 @@
 2. Создан `yml`-файл для запуска GitHub Actions `.github/workflows/test_linting_and_extraction.yml`
 ![image](https://github.com/khit-mle/swe-hw05/assets/149804920/72edc2fe-8be5-41dd-8431-f75e6724ec4d)
 
-3. 
+3. Тесты автоматически отрабатывают при коммитах, без ошибок
+![image](https://github.com/khit-mle/swe-hw05/assets/149804920/fbdc0136-6706-42fc-b19c-b757d632280a)
+
+![image](https://github.com/khit-mle/swe-hw05/assets/149804920/ffae0494-ec6e-410c-9399-ae7db4397cee)
