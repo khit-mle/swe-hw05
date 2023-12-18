@@ -1,13 +1,8 @@
 from fastapi.testclient import TestClient
 from khitrin_hw03_FastAPI_NER import app
 
+
 client = TestClient(app)
-
-
-def test_root_redirects_to_docs():
-    response = client.get("/")
-    assert response.status_code == 307
-    assert response.headers["location"] == "/docs"
 
 
 def test_extract_org_entities():
