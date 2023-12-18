@@ -1,22 +1,11 @@
-# khitrin-hw03-FastAPI-NER.py
+## ДЗ №5 по "Программной инженерии"
 
-## ДЗ №3 по "Программной инженерии"
-*Демонстрация возможностей модели [bert-base-NER](https://huggingface.co/dslim/bert-base-NER) из репозитория **HuggingFace**. **BERT** — это семейство языковых моделей, представленное в свет в октябре 2018 г. исследовательской командой из **Google**. В данном случае, как следует из её названия, модель специфически настроена на решение задач **NER** — распознавания именованных сущностей.*
+Разработаны тесты для API модели машинного обучения и настроен автоматический запуск тестов на GitHub.
 
-Для запуска кода потребуется установка зависимостей:
+1. Файл с тестами `test_khitrin_hw03_FastAPI_NER.py` размещён в репозитории.
+![image](https://github.com/khit-mle/swe-hw05/assets/149804920/8f615ae6-3b49-4a89-96c6-88715afca464)
 
-```buildoutcfg
-pip install -r requirements.txt
-```
+2. Создан `yml`-файл для запуска GitHub Actions `.github/workflows/test_linting_and_extraction.yml`
+![image](https://github.com/khit-mle/swe-hw05/assets/149804920/72edc2fe-8be5-41dd-8431-f75e6724ec4d)
 
-Запустить `FastAPI`-приложение с помощью `uvicorn` локально можно следущей командой:
-```
-uvicorn khitrin-hw03-FastAPI-NER:app --host 127.0.0.1 --port 8000
-```
-
-### Демонстрация в формате GIF
-![fastapi-ner-demo_final](https://github.com/khit-mle/swe-hw03/assets/149804920/3fd10d36-8688-4e77-a7b8-0fea0eec2997)
-
-Ключевые моменты из демонстрации:
-* успешный POST-запрос по созданию таски
-* успешный GET-запрос по получению результатов отработки ML-модели
+3. 
