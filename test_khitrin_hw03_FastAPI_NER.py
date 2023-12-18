@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-from khitrin-hw03-FastAPI-NER import app
+from khitrin_hw03_FastAPI_NER import app
 
 client = TestClient(app)
 
